@@ -5,22 +5,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="reset.css"> -->
   <link rel="stylesheet" href="./styles.css">
   <title>Frontend Mentor | Huddle landing page with alternating sections</title>
-  
+
 </head>
 <body>
-  <header>
-
-  </header>
-  <section>
-
-  </section>
-  <footer>
-    <p class="attribution">
-      This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
-    </p>
-  </footer>
+  <div class="Container">
+    <header>
+      <section class="row">
+        <h1>
+          <img src="./images/icon-messages.svg" alt="">
+          Huddle
+        </h1>
+        <button class="right">Try It Free</button>
+      </section>
+      <section class="section1">
+        <h2>Build The Community Your Fans Will Love</h2>
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+        <button class="filled">Get Started For Free</button>
+      </section>
+    </header>
+    <section class="Container__Pages">
+      <img src="./images/screen-mockups.svg" alt="">
+    </section>
+    <section class="Container__Section height40">
+      <section class="Section__Container">
+        <div class="Section__Item sectionImage">
+          <img src="./images/icon-communities.svg" alt="">
+        </div>
+        <div class="Section__Item Header">
+          <h2>1.4k+</h2>
+        </div>
+        <div class="Section__Item Body">
+          <p>Communities Formed</p>
+        </div>
+      </section>
+      <section class="Section__Container">
+        <div class="Section__Item sectionImage">
+          <img src="./images/icon-messages.svg" alt="">
+        </div>
+        <div class="Section__Item Header">
+          <h2>2.7m+</h2>
+        </div>
+        <div class="Section__Item Body">
+          <p>Messages Sent</p>
+        </div>
+      </section>
+    </section>
+    <section class="Section__TopImage">Hello, World!</section>
+    <section class="Container__Section"></section>
+    <footer>
+      <p class="attribution">
+        This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
+      </p>
+    </footer>
+  </div>
 </body>
 </html>

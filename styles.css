@@ -1,0 +1,128 @@
+:root {
+  font-size: 62.5%;
+  --Primary: hsl(322, 100%, 66%);
+  --Cyan: hsl(192, 100%, 9%);
+  --Blue: hsl(207, 100%, 98%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+  font-style: normal;
+}
+h2 {
+  font-size: 4.6rem;
+}
+p {
+  font-size: 2rem;
+  max-width: 60rem;
+  line-height: 1.5;
+  text-align: center;
+}
+button {
+  border: 1px solid var(--Primary);
+  border-radius: 30px;
+  padding: 1rem 3rem;
+  font-size: 1.6rem;
+  color: var(--Primary);
+  background: transparent;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+button:hover {
+  background: var(--Primary);
+  color: white;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.Container {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 6rem 7rem;
+}
+.section1 {
+  margin-top: 22rem;
+}
+.section1 p {
+  margin-top: 2rem;
+}
+.section1 button {
+  margin-top: 4.4rem;
+  font-size: 2rem;
+  padding: 3rem 10rem;
+  border-radius: 60px;
+}
+.Container__Pages {
+  height: 92rem;
+}
+.Container__Section {
+  height: 60rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Section__Container {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.Section__Container h2 {
+  font-size: 9rem;
+}
+.Section__Item {
+  width: 100%;
+}
+.Section__TopImage {
+  height: 20rem;
+}
+/* utilities */
+.bgImage1 {
+  background-image: url("");
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sectionImage {
+  padding: 3rem 0 0 8rem;
+}
+.Header {
+  text-align: center;
+}
+.Body p {
+  padding: 1rem 0;
+  font-size: 2.6rem;
+  letter-spacing:
+}
+.height40 {
+  height: 40rem;
+}
+.right {
+  margin-left: auto;
+}
+.filled {
+  background: var(--Primary);
+  color: white;
+}
